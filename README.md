@@ -4,7 +4,7 @@ An enterprise-grade **Microsoft Fabric lakehouse architecture** built around gov
 
 ![Architecture](https://raw.githubusercontent.com/oleglihvoinen/oleglihvoinen.github.io/main/assets/architecture/fabric-enterprise-data-platform.png)
 
-## Executive summary
+## Summary
 
 The platform separates ingestion, source-fidelity storage, standardization, business modeling and semantic consumption into explicit architectural layers. This reduces coupling between source systems and analytics, improves lineage, and creates a stable foundation for Power BI, APIs and governed AI consumers.
 
