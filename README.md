@@ -2,6 +2,8 @@
 
 A portfolio/reference architecture for a governed **Microsoft Fabric lakehouse platform** using a medallion design from ingestion through semantic consumption.
 
+![Architecture](https://raw.githubusercontent.com/oleglihvoinen/oleglihvoinen.github.io/main/assets/architecture/fabric-enterprise-data-platform.png)
+
 ## Architecture
 ERP / CRM / APIs / files → Data Factory → OneLake/Lakehouse Bronze → PySpark + Delta Silver → Gold facts/aggregates → semantic model → Power BI / APIs / governed AI.
 
